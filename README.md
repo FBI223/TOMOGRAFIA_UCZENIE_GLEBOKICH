@@ -2,7 +2,7 @@
 prezentacja z uczenia głębokich sieci temat tomografia komputerowa 
 
 
-please create conda env:
-conda env create -f tom_env.yml
-conda activate tom_env
+REPO SKLADA SIE Z 2  FOLDEROW
+1) Colab - wchodzimy na google colab i uruchamiamy tom_unet.ipynb
+2) Local - tworzymy ( conda env create -f tom_env.yml ) i odpalamy notebook notebook.ipynb  
 
