@@ -1,33 +1,15 @@
 name: tom_env
 channels:
   - conda-forge
-  - pytorch
   - defaults
+
 dependencies:
-  - python
-  - ffmpeg
-  - pip
+  - python=3.10
   - numpy
   - scipy
   - scikit-image
+  - matplotlib
   - pillow
   - ipython
-  - matplotlib
-  - pandas
-  - scikit-learn
-  - pip:
-      - celluloid
-      - dicom2nifti
-      - jupyter
-      - imgaug
-      - tensorboard
-      - torch
-      - torchio
-      - torchmetrics
-      - torchvision
-      - tqdm
-      - pytorch-lightning
-      - opencv-python
-      - nibabel
-      - pydicom
-
+  - jupyter
+  - ffmpeg
